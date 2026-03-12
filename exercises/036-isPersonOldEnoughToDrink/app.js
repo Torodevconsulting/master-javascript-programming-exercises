@@ -1,4 +1,5 @@
-function isPersonOldEnoughToDrink(person) {
-  // Add your code after this line
-  
+const isPersonOldEnoughToDrink = person => person.age >= 21;
+const person1 = {
+  age: 16
 }
+console.log(isPersonOldEnoughToDrink(person1));

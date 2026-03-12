@@ -1,4 +1,5 @@
-function isPersonOldEnoughToVote(person) {
-  // Add your code after this line
-  
+const isPersonOldEnoughToVote = person => person.age >= 18;
+const person1 = {
+  age: 16
 }
+console.log(isPersonOldEnoughToVote(person1));
