@@ -1,6 +1,5 @@
-function removeFromBack(arr) {
-    // your code here
-    
+const removeFromBack = arr => {arr.pop()
+    return arr;
 }
 
 let output = removeFromBack([1, 2, 3]);

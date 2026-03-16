@@ -1,7 +1,4 @@
-function removeFromBackOfNew(arr) {
-  // your code here
-  
-}
+const removeFromBackOfNew = arr => arr.slice(0, -1)
 
 let arr = [1, 2, 3];
 let output = removeFromBackOfNew(arr);

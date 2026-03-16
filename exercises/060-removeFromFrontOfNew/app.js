@@ -1,7 +1,5 @@
-function removeFromFrontOfNew(arr) {
-    // your code here
-    
-}
+const removeFromFrontOfNew = arr => arr.slice(1)
+
 
 let arr = [1, 2, 3];
 let output = removeFromFrontOfNew(arr);
